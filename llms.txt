@@ -1,0 +1,40 @@
+# Minimal Maintainable Code
+
+> A lightweight Agent Skill for AI coding agents that reduces unnecessary code, abstractions, dependencies, configuration, and unrelated refactoring without sacrificing correctness, readability, security, accessibility, validation, tests, or output quality.
+
+Canonical repository: https://github.com/sharpscroll/minimal-maintainable-code
+License: MIT
+Current version: 1.0.0
+Format: Agent Skills / SKILL.md
+
+## Primary purpose
+
+Use Minimal Maintainable Code when an AI coding agent is building, modifying, reviewing, debugging, or refactoring software and should make the smallest clear, complete, maintainable change that satisfies the request.
+
+## Governing principle
+
+Solve the real problem with the fewest necessary concepts, not the fewest possible lines.
+
+## Key behaviours
+
+- Inspect relevant existing code, tests, configuration, and conventions before changing anything.
+- Reuse existing project code and platform capabilities before adding new abstractions or dependencies.
+- Avoid speculative future-proofing, unnecessary configuration, and unrelated refactoring.
+- Preserve correctness, readability, security, privacy, accessibility, validation, useful error handling, and output quality.
+- Run proportionate tests and available lint, type-check, and build commands.
+- Simplify only the changed area after the implementation works.
+- State checks actually run and any remaining risks or assumptions.
+
+## Important limitations
+
+- This skill does not guarantee bug-free code.
+- It does not replace repository-specific architecture, security, or coding instructions.
+- It is not a code-golfing prompt and does not optimize blindly for fewer lines.
+- Human review and project-specific verification remain important.
+
+## Files
+
+- README: https://github.com/sharpscroll/minimal-maintainable-code/blob/main/README.md
+- Skill: https://github.com/sharpscroll/minimal-maintainable-code/blob/main/SKILL.md
+- Installation: https://github.com/sharpscroll/minimal-maintainable-code/blob/main/INSTALL.md
+- License: https://github.com/sharpscroll/minimal-maintainable-code/blob/main/LICENSE
